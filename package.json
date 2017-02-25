@@ -1,7 +1,7 @@
 {
   "name": "memory",
   "version": "1.0.0",
-  "description": "",
+  "description": "Memory game",
   "main": "src/js/memory.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,27 @@
     "gulp-cssmin": "^0.1.7",
     "gulp-sass": "^3.1.0",
     "gulp-template": "^4.0.0"
-  }
+  },
+  "dependencies": {
+    "gulp-copy": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-closure-compiler": "^0.4.0",
+    "gulp-template": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssmin": "^0.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmentor/memory.git"
+  },
+  "keywords": [
+    "memory-game",
+    "memory",
+    "game"
+  ],
+  "bugs": {
+    "url": "https://github.com/xmentor/memory/issues"
+  },
+  "homepage": "https://github.com/xmentor/memory#readme"
 }
